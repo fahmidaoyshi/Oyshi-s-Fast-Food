@@ -119,6 +119,7 @@
     border-radius: 3px;
     padding:0px 0px 0px 20px;
 }
+               /* Mission */
 .mission {
   font-family: "Open Sans", sans-serif;
   color: #555;
@@ -176,4 +177,10 @@
   font-size: 22px;
   font-weight: 400;
   text-align: center;
+}
+
+.frimg{
+      width: 400px;   
+  height: 450px; 
+  border-radius: 12px;
 }
