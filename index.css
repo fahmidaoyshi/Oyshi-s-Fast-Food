@@ -48,8 +48,8 @@
   
 }
  
-.opnsns{
-     font-family: "Open Sans", sans-serif;
+.Poppins{
+    font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -118,4 +118,62 @@
     border-left:5px solid #E53935 ;
     border-radius: 3px;
     padding:0px 0px 0px 20px;
+}
+.mission {
+  font-family: "Open Sans", sans-serif;
+  color: #555;
+}
+
+.mission h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px; 
+  font-family: "Yeseva One", serif;
+  color:#E53935;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px; 
+  margin: 0 auto;
+  min-height: 20px;
+}
+.card:nth-child(1){
+    background-color: #b9d2d4;}
+
+    .card:nth-child(2){
+        background-color: #e2ccaf;}
+
+        .card:nth-child(3){
+            background-color: #e1d6ff;}
+   
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 5px 25px;
+}
+
+.card:hover {
+  background-color: #ddcfcf;
+  box-shadow: 5px 12px 25px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.card:hover h2 {
+  color: #ff5722;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
 }
