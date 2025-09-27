@@ -1,0 +1,77 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0%;
+}
+.headmain{
+    display: flex;
+     justify-content: space-between;
+     padding: 20px 80px;
+     background-color: #ffffff;
+    }
+
+.box{
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15); 
+    border-bottom: 2px solid #eaeaea;   
+}
+    nav a{
+    text-decoration: none;
+    color: #555555
+}
+
+.headleft{
+    font-size: 34px;
+    font-weight: 800;
+    color: #3d3535;
+    
+}
+
+.head1{
+    font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#difClr{
+    color:#E53935 ;
+    text-decoration: overline;
+ }  
+
+ .headright{
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 600;   
+    display: flex;
+    align-items: center;
+    color: #f3a250 
+  
+}
+ 
+.opnsns{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.btn{
+    background-color: #E53935;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;    
+    size: 20px;
+    font-size: 19px;
+}
+
+.btn:hover{
+    background-color: #d4c4ff;
+    border: #e79e9d solid 2px;
+}
+.bar{
+    display: none;
+    color:#E53935
+}
