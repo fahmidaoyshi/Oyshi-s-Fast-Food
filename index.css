@@ -95,13 +95,14 @@
    height: auto;
    border-radius: 12px;
  }
+
 .head1{
     font-family: "Yeseva One", serif;
   font-weight: 400;
   font-style: normal;
 }
 .lightclr{
-    color:#f3a250 ;
+    color:#f19b45 ;
 }
 
 .Main h3 {
@@ -123,6 +124,7 @@
 .mission {
   font-family: "Open Sans", sans-serif;
   color: #555;
+  margin-bottom: 30px;
 }
 
 .mission h1 {
@@ -139,7 +141,7 @@
   gap: 20px;
   max-width: 1000px; 
   margin: 0 auto;
-  min-height: 20px;
+  min-height: 40px;
 }
 .card:nth-child(1){
     background-color: #b9d2d4;}
@@ -153,7 +155,7 @@
 .card {
   background: #fff;
   border-radius: 12px;
-  padding: 5px 25px;
+  padding: 10px 25px;
 }
 
 .card:hover {
@@ -177,6 +179,7 @@
   font-size: 22px;
   font-weight: 400;
   text-align: center;
+  margin: 10px ;
 }
 
 .frimg{
@@ -184,3 +187,46 @@
   height: 450px; 
   border-radius: 12px;
 }
+                  /* food app */
+.frhead{
+  text-align: center;
+   font-size: 29px;
+  font-weight: 500;
+  margin: 80px  0px 0px 0px; 
+  font-family: "Poppins", sans-serif;
+  color:#E53935;
+}
+
+.Foodapp{
+   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 9% 3% 10% ;
+  gap: 30px;
+}
+
+
+.Foodapp img{
+      width: 600px;   
+  height: 450px; 
+  border-radius: 12px;
+}
+
+ .b3{
+   width: 50%;
+   height: auto;
+ }
+ .b3 p{
+  margin: 10px 10px 15px 10px;
+  font-size:20px ;
+  color: #3d3535;
+  font-family: "Poppins", sans-serif;
+  font-weight: 450;
+ }
+ .b3 h3{
+   font-size: 25px;
+   margin-bottom: 2px;
+   border-left:5px #E53935 solid ;
+    border-radius: 3px;
+    padding:0px 0px 0px 20px;
+ }
