@@ -198,7 +198,7 @@
 }
 
 .Foodapp{
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 50px 9% 3% 10% ;
@@ -207,14 +207,15 @@
 
 
 .Foodapp img{
-      width: 600px;   
-  height: 450px; 
+  max-width: 600px;
+  height: 450px;
   border-radius: 12px;
 }
 
  .b3{
-   width: 50%;
-   height: auto;
+ width: 100%;
+  max-width: 600px;
+   padding: 20px;
  }
  .b3 p{
   margin: 10px 10px 15px 10px;
@@ -230,3 +231,10 @@
     border-radius: 3px;
     padding:0px 0px 0px 20px;
  }
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  font-size: 19px;
+}
